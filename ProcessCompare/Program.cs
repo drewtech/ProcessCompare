@@ -25,6 +25,9 @@ namespace ProcessCompare
             var comparer = new Comparer(_settings);
             comparer.DoCompare();
 
+            var dynamoImporter = new DynamoImporter(_settings);
+            dynamoImporter.DoImport();
+
             Log.Information("Closing Process Compare.");
             Console.ReadLine();
         }
