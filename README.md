@@ -14,3 +14,5 @@ DotNet Core 2.2
 
 Red Gate Data Compare
 
+AWS account
+
