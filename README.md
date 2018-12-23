@@ -5,6 +5,11 @@ This is a .NET core command line program.
 
 It will:
 
-1.  Execute Red Gate Data compare (you need a license for this), and export the results.
-2.  Then, take the settings and insert them into AWS Dynamo DB.
+1.  Execute Red Gate Data compare (you need a license for this), and export the results from a saved project.
+2.  Take the settings and insert them into AWS Dynamo DB.
+
+Requirements:
+
+DotNet Core 2.2
+Red Gate Data Compare
 
