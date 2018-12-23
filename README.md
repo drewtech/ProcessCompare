@@ -1,3 +1,5 @@
+![alt text](https://api.travis-ci.com/drewtech/ProcessCompare.svg?branch=master "Build Status")
+
 # ProcessCompare
 Execute Red Gate Data Compare with .net core and publish the result to AWS Dynamo DB
 
