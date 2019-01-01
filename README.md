@@ -1,4 +1,4 @@
-![alt text](https://api.travis-ci.com/drewtech/ProcessCompare.svg?branch=master "Build Status")
+[![Build Status](https://travis-ci.com/drewtech/ProcessCompare.svg?branch=master)](https://travis-ci.com/drewtech/ProcessCompare)
 
 # ProcessCompare
 Execute Red Gate Data Compare with .net core and generate migration scripts
