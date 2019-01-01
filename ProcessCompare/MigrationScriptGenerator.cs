@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Amazon.DynamoDBv2;
-using Amazon.DynamoDBv2.Model;
 using CsvHelper;
 using Serilog;
 
