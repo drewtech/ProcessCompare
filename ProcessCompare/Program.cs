@@ -25,8 +25,8 @@ namespace ProcessCompare
             var comparer = new Comparer(_settings);
             comparer.DoCompare();
 
-            var dynamoImporter = new DynamoImporter(_settings);
-            dynamoImporter.DoImport();
+            var migrationScriptGenerator = new MigrationScriptGenerator(_settings);
+            migrationScriptGenerator.GenerateMigrationScripts();
 
             Log.Information("Closing Process Compare.");
             Console.ReadLine();

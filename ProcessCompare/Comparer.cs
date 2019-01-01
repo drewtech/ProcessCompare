@@ -22,6 +22,12 @@ namespace ProcessCompare
 
         private int DoSqlDataCompare()
         {
+            if (!_settings.RunCompare)
+            {
+                Log.Information("Skipping compare due to configuration RunCompare=False");
+                return 0;
+            }
+
             Log.Debug("Running Red Gate Data Compare.");
 
             var processName = Path.Combine(_settings.RedGateDataComparePath, "SQLDataCompare.exe");
