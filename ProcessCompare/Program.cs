@@ -28,7 +28,7 @@ namespace ProcessCompare
             var migrationScriptGenerator = new MigrationScriptGenerator(_settings);
             migrationScriptGenerator.GenerateMigrationScripts();
 
-            Log.Information("Closing Process Compare.");
+            Log.Information("Done.  Press any key to close.");
             Console.ReadLine();
         }
 
